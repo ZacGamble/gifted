@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="https://bcw.blob.core.windows.net/public/img/9977764104160066">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style/main.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>gifted</title>
+</head>
+
+<body>
+  <main>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- col-3 form -->
+        <div class="col-md-3 bg-dark text-light p-3" style="min-height: 100vh;">
+          <h1 class="text-light">Gifted</h1>
+          <div id="giftsform">
+            <form class="d-flex flex-column">
+              <label class="m-1" for="tag">Tag</label>
+              <input class="m-1" name="tag" id="tag" type="text">
+              <label class="m-1" for="url">URL</label>
+              <input class="m-1" name="url" id="url" type="text">
+              <button class="m-1" class="btn btn-info">Submit</button>
+            </form>
+          </div>
+        </div>
+       
+        <div class="col-md-9 bg-light">
+
+          <div class="d-flex p-3">
+
+            <div class="m-3" style="width: 18rem;">
+              <img class="card-img-top" src="https://i.natgeofe.com/n/6490d605-b11a-4919-963e-f1e6f3c0d4b6/sumatran-tiger-thumbnail-nationalgeographic_1456276.jpg" alt="Card image cap">
+              <div class="card-body bg-dark text-light">
+                <h5 class="card-title text-align">Opened gift text!</h5>
+              </div>  
+            </div>
+            <div class="m-3" id="closedgift">
+
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="bg-dark text-light">
+    <div class="text-center no-select">
+      <p><small>Made with 💖 by Codeworks</small></p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.3.10/dist/sweetalert2.all.min.js"
+    integrity="sha256-hw7v8jZF/rFEdx1ZHepT4D73AFTHLu/P9kEyrNesRyc=" crossorigin="anonymous"></script>
+  <script src="app/main.js" type="module"></script>
+</body>
+
+</html>
