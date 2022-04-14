@@ -8,7 +8,7 @@ class GiftsService{
         let params = {
             api_key:'Cuyr7covC5ZGg38MJ4huELUmAh6jVZs0',
             rating: 'pg',
-            q: 'truck',
+            q: 'random',
             limit: '1'
         }
      
